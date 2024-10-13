@@ -1,5 +1,6 @@
 select current_date() as tanggal; #Mengembalikan tanggal saat ini (tanpa waktu).
-select now(); #menampilkan tanggal dan waktu saat ini
+  #test
+  select now(); #menampilkan tanggal dan waktu saat ini
 select date(now()); # Mengambil bagian tanggal dari datetime atau timestamp.
 select date_add(now(),interval 10 day);#Menambahkan interval waktu (hari, bulan, tahun, dll.) ke tanggal.
 select date_sub(now(),interval 10 day);#mengurangi interval waktu
